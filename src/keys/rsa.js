@@ -6,7 +6,7 @@ import disableWorker from '../utils/disable-worker';
 const forgeGenerateKeyPair = pify(rsa.generateKeyPair);
 
 const defaultParams = {
-    modulusLength: 2048,
+    modulusLength: 4096,
     publicExponent: 65537,
     method: 'PRIMEINC',
 };
